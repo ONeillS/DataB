@@ -1,0 +1,7 @@
+string acctVal = dr[“Acct”].ToString().Substring(0,1);
+string[] balanceSheetVals= {"0", "1", "2"};
+
+if(balanceSheetVals.contains(acctVal))
+{
+   Level = "Balance Sheet";
+}
